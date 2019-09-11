@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+
+body {font-family: 'Liu Jian Mao Cao';
+font-size: x-large;}
+
+ul {
+    list-style-type: none;
+
+}
+
+button {
+    background-color: Transparent;
+    font-family : inherit;
+    font-size: x-large;
+    font-weight: bold; 
+    border: none;
+}
+
+#GameManagingButtons button:enabled:hover {
+    background-color:#9f9;
+}
+
+#GameConfigButtons button:enabled:hover {
+    background-color:#f99;
+}
+
+#CurrentGameConfig button:hover {
+    text-decoration: line-through;
+}
